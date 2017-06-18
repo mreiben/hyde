@@ -58,6 +58,8 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  /*custom*/
+  vertical-align: middle;
 }
 @media (min-width: 48em) {
   .sidebar {
