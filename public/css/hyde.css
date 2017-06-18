@@ -58,14 +58,16 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
   /*custom*/
-  padding: 2rem auto;
+  padding: 2rem 1rem;
 }
 @media (min-width: 48em) {
   .sidebar {
-    position: fixed;
+/*     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
+    margin-top: auto;
+    margin-bottom: auto;
     width: 18rem;
     text-align: left;
   }
