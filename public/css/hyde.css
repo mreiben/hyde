@@ -55,11 +55,10 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
   /*custom*/
-  vertical-align: middle;
+  padding: 2rem auto;
 }
 @media (min-width: 48em) {
   .sidebar {
