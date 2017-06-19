@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simon Game FCC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="application.js"></script>
+    <audio id="sound0" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio id="sound1" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio id="sound2" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio id="sound3" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+  </head>
+  <body>
+    <div id="simon_body">
+      <div class="choice" id="green"></div>
+      <div class="choice" id="red"></div>
+      <div class="choice" id="yellow"></div>
+      <div class="choice" id="blue"></div>
+    </div>
+    <div id="simon_center">
+    </div>
+    <div id="simon_control_holder">
+      <div id="label_holder">
+        <p id="game_label">Simon</p>
+      </div>
+      <div id="button_holder">
+        <div id="counter">
+          <p id="round">--</p>
+        </div>
+        <div id="start_button"></div>
+        <div id="strict_button"></div>
+        <p class="label" id="count_label">count</p>
+        <p class="label" id="start_label">start</p>
+        <p class="label" id="strict_label">strict</p>
+      </div>
+    </div>
+  </body>
+</html>

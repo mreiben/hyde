@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#simon_body, #simon_center, #simon_control_holder{
+  position: fixed;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+}
+
+#simon_body{
+  width: 400px;
+  height: 400px;
+  margin-top: -200px; /* Negative half of   height. */
+  margin-left: -200px; /* Negative half     of width. */
+  border-radius: 2000px;
+}
+
+#simon_center{
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px; /* Negative half of   height. */
+  margin-left: -100px; /* Negative half     of width. */
+  border-radius: 2000px;
+}
+
+#green, #red, #yellow, #blue{
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  opacity: 0.7;
+}
+
+#green{
+  background-color: green;
+  border-top-left-radius: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#red{
+  background-color: red;
+  border-top-right-radius: 200px;
+  margin-left: 15px;
+}
+#yellow{
+  background-color: yellow;
+  margin-top: 15px;
+  margin-left: 30px;
+  border-bottom-left-radius: 200px;
+}
+#blue{
+  background-color: blue;
+  border-bottom-right-radius: 200px;
+  margin-left: 15px;
+}
+
+#simon_control_holder{
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin-top: -75px; /* Negative half of   height. */
+  margin-left: -75px; /* Negative half     of width. */
+  border-radius: 2000px;
+  background-color: white;
+  display: inline-block;
+}
+
+#game_label{
+  font-size: 30px;
+  width: 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#button_holder{
+  margin: 0 0 0 0;
+  height: 45px;
+  display: inline-block;
+}
+
+#counter{
+  background-color: grey;
+  height:35px;
+  width: 35px;
+  border-radius: 5px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+#round{
+  width: 30px;
+  text-align: center;
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 2px;
+  color: red;
+}
+
+#start_button{
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+
+#strict_button{
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+
+#count_label{
+  margin-left: 15px;
+}
+#start_label{
+  margin-left: 3px;
+}
+#strict_label{
+  margin-left: 3px;
+}
+
+.label{
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#start_button, #strict_button, #simon_body, .choice{
+    -moz-box-shadow:    1px 1px 1px 2px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(0, 0, 0, 0.8);
+  box-shadow:         1px 1px 1px 2px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+#start_button:active{
+  background-color:#550000;
+}

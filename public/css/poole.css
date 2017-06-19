@@ -86,7 +86,7 @@ a:focus {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Comfortaa-Bold";
-  margin-bottom: .5rem;
+  margin-bottom: .75rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
@@ -233,10 +233,52 @@ blockquote p:last-child {
 }
 
 img {
-  display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
   border-radius: 5px;
+}
+/*custom portfolio image styles */
+.simon{
+  border: 1px solid grey;
+}
+
+.img-container{
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin: -5px 15px;
+}
+
+.folio-img{
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visability: hidden;
+}
+
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  width:220px;
+  transform: translate(50px,-125px);
+  -ms-transform: translate(50px,-125px);
+}
+
+.img-container:hover .folio-img{
+  opacity: 0.3;
+}
+
+.img-container:hover .middle{
+  opacity: 1;
+}
+
+.text {
+  background-color: #6A9FB5;
+  color: white;
+  font-size: .75em;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-align:center;
+  width: 200px;
 }
 
 /* Tables */

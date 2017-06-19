@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wikipedia Search</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="application.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3 text-center" id="mainView">
+        <a href="https://en.wikipedia.org/wiki/Special:Random">
+            <h4 id="randomText">Click here for a random article</h4>
+        </a>
+        <input class="text-center"></input>
+        <button id="searchButton">Search</button>
+        <h4 id="searchInfo">Or search for a specific topic</h4>
+      </div>
+    </div>
+    <div class="row" id="searchResults">
+      <div class="col-xs-6 col-xs-offset-3 text-center result">
+        <h3 class="resultTitle">Topic Title</h3>
+        <h3 class="resultText">Info from wiki</h3>
+      </div>
+    </div>
+  </body>
+</html>

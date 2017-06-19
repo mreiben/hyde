@@ -1,0 +1,42 @@
+body{
+  background-color: #343477;
+}
+h4{
+  color: white;
+}
+#mainView{
+  margin-top: 200px;
+}
+#searchInfo{
+  margin-top: 20px;
+}
+
+input, button{
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+}
+.result{
+  background-color:#565695;
+  border-radius: 3px;
+  margin-top:10px;
+  text-align:left;
+}
+.resultTitle{
+  font-size:20px;
+  color: #09093B;
+}
+.resultText{
+  font-size:16px;
+  color: #1A1A59;
+}
+.result:hover{
+  background-color:#8080B3;
+}
+#searchResults{
+  display:none;
+}
+.result:hover, h3:hover{
+  text-decoration:none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pomodoro Clock</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="application.js"></script>
+  </head>
+  <body>
+    <h1>Pomodoro Clock</h1>
+    <div id="timer-control">
+      <div id="break-input" class="input-holder">
+        <p>Break Length</p>
+        <div id="break-buttons">
+          <p class="input" id="break-minus">-</p>
+          <p id="break-length">5</p>
+          <p class="input" id="break-plus">+</p>
+        </div>
+      </div>
+      <div id="session-input" class="input-holder">
+        <p>Session Length</p>
+        <div id="session-buttons">
+          <p class="input" id="session-minus">-</p>
+          <p id="session-length">25</p>
+          <p class="input" id="session-plus">+</p>
+        </div>
+      </div>
+    </div>
+    <div id="circle-holder">
+      <div id="clock">
+        <h3 id="mode">Session</h3>
+        <p id="time">25:00</p>
+      </div>
+    </div>
+  </body>
+</html>
