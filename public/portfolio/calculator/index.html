@@ -1,0 +1,96 @@
+<!-- following FreeCodeCamp project guidelines -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Javascript Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link src="stylesheet.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="application.js"></script>
+  </head>
+  <body>
+    <div id="calculator-body">
+      <p id="calc-name">JavaScript Calculator</p>
+      <div id="screen">
+        <p id="total">0</p>
+        <p id="history"></p>
+      </div>
+      <div id="button-area">
+        <div class="button-row">
+          <div class="clear-clicker" id="ac">
+            <p>AC<p>
+          </div>
+          <div class="clear-clicker" id="ce">
+            <p>CE<p>
+          </div>
+          <div class="clicker op" id="divide">
+            <p>&divide<p>
+          </div>
+          <div class="side-clicker op" id="multiply">
+            <p>X<p>
+          </div>
+        </div>
+        <div class="button-row">
+          <div class="clicker num" id="7">
+            <p>7<p>
+          </div>
+          <div class="clicker num" id="8">
+            <p>8<p>
+          </div>
+          <div class="clicker num" id="9">
+            <p>9<p>
+          </div>
+          <div class="side-clicker op" id="minus">
+            <p>-<p>
+          </div>
+        </div>
+        <div class="button-row">
+          <div class="clicker num" id="4">
+            <p>4<p>
+          </div>
+          <div class="clicker num" id="5">
+            <p>5<p>
+          </div>
+          <div class="clicker num" id="6">
+            <p>6<p>
+          </div>
+          <div class="side-clicker op" id="plus">
+            <p>+<p>
+          </div>
+        </div>
+        <div id="bottom-rows">
+          <div id="bottom-left-rows">
+            <div class="half-row">
+              <div class="clicker num" id="1">
+                <p>1</p>
+              </div>
+              <div class="clicker num" id="2">
+                <p>2</p>
+              </div>
+              <div class="side-clicker num" id="3">
+                <p>3</p>
+              </div>
+            </div>
+            <div class="half-row">
+              <div id="zero" class="clicker num" id="0">
+                <p>0</p>
+              </div>
+              <div class="side-clicker" id="point">
+                <p>.</p>
+              </div>
+            </div>
+          </div>
+          <div id="equals-holder">
+            <div class="side-clicker" id="equals">
+                <p id="equals-text">=</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="credit">
+      <p>Created by Jason Eiben</p>
+    </div>
+  </body>
+</html>
