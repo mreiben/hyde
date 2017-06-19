@@ -80,7 +80,12 @@ a:focus {
 }
 
 /* Headings */
+@font-face{
+  font-family: "Comfortaa-Bold";
+  src: url("Comfortaa-Bold.ttf");
+}
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Comfortaa-Bold";
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
