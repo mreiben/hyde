@@ -242,6 +242,14 @@ img {
   border: 1px solid grey;
 }
 
+.p-heading{
+  color: #2C56B6;
+  margin-bottom: 40px;
+}
+.project-name{
+  line-height: .25em;
+}
+
 .img-container{
   width: 300px;
   height: 200px;
@@ -252,6 +260,7 @@ img {
 .folio-img{
   width: 100%;
   opacity: 1;
+  /*filter: grayscale(100%);*/
   transition: .5s ease;
   backface-visability: hidden;
 }
@@ -266,6 +275,7 @@ img {
 
 .img-container:hover .folio-img{
   opacity: 0.3;
+  /*filter: grayscale(0%);*/
 }
 
 .img-container:hover .middle{
@@ -273,13 +283,16 @@ img {
 }
 
 .text {
-  background-color: #6A9FB5;
+  background-color: #2C56B6;
   color: white;
   font-size: .75em;
   padding: 8px 16px;
   border-radius: 5px;
   text-align:center;
   width: 200px;
+}
+.img-container a:hover{
+  text-decoration: none;
 }
 
 /* Tables */
@@ -385,7 +398,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #0F3CA5;
 }
 .page-title,
 .post-title {
