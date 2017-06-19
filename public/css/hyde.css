@@ -157,6 +157,7 @@ a.sidebar-nav-item:focus {
 
 .portal{
   width: 300px;
+  display: block;
   margin: 0 auto;
   border-radius: 300px;
 }
