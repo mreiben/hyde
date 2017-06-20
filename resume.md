@@ -43,7 +43,7 @@ title: Résumé
   <p class="res-dates break-below">September 2004 - June 2008</p>
 
   <h3 class="res-section">SKILLS</h3>
-  <p> React, Redux, ES2016, Webpack, Heroku, HTML5, CSS3, MongoDB, SQLite, Git & GitHub, Python, Data Analysis, Linux Environments, Basic Server Management, 3D Modeling, 3D Printer Construction.  Currently learning GraphQL and React Native.</p>
+  <p> React, Redux, ES2016, Webpack, Heroku, HTML5, CSS3, MongoDB, SQLite, Git & GitHub, Python, Data Analysis, Linux Environments, Basic Server Management, 3D Modeling, 3D Printer Engineering.  Currently learning GraphQL and React Native.</p>
   <br>
 </div>
 <a href="/public/resources/jason-eiben-resume.pdf" download="jason-eiben-resume.pdf">
