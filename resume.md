@@ -2,9 +2,6 @@
 layout: page
 title: Résumé
 ---
-<a href="/public/resources/jason-eiben-resume.pdf" download="jason-eiben-resume.pdf">
-  <button class="download">Download</button>
-</a>
 <div class="paper">
   <h2>Jason Eiben</h2>
   <h3>Full Stack Developer</h3>
@@ -48,4 +45,7 @@ title: Résumé
   <h3 class="res-section">SKILLS</h3>
   <p> React, Redux, ES2016, Webpack, Heroku, HTML5, CSS3, MongoDB, SQLite, Git & GitHub, Python, Data Analysis, Linux Environments, Basic Server Management, 3D Modeling, 3D Printer Engineering.  Currently learning GraphQL and React Native.</p>
   <br>
+  <button class="download">
+    <a href="/public/resources/jason-eiben-resume.pdf" download="jason-eiben-resume.pdf">Download</a>
+  </button>
 </div>
