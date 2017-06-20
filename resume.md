@@ -3,7 +3,6 @@ layout: page
 title: Résumé
 ---
 <div class="paper">
-  <div class="green-bar"></div>
   <h2>Jason Eiben</h2>
   <h3>Full Stack Developer</h3>
   <p>Astoria, NY</p>
@@ -47,3 +46,6 @@ title: Résumé
   <p> React, Redux, ES2016, Webpack, Heroku, HTML5, CSS3, MongoDB, SQLite, Git & GitHub, Python, Data Analysis, Linux Environments, Basic Server Management, 3D Modeling, 3D Printer Construction.  Currently learning GraphQL and React Native.</p>
   <br>
 </div>
+<a href="/public/resources/jason-eiben-resume.pdf" download="jason-eiben-resume.pdf">
+  <button class="download">Download</button>
+</a>

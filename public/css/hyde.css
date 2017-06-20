@@ -139,16 +139,16 @@ a.sidebar-nav-item:focus {
  */
 
  /*center the main content on about page */
- html{
+ html, .container, .box1{
     height: 100%;
+ }
+ body{
+   height: 95%;
  }
 
  .box1 {
     display: flex;
     align-items: center;
- }
- .box2 {
-    margin: 0;
  }
 
 @media (min-width: 48em) {
@@ -379,4 +379,34 @@ a.sidebar-nav-item:focus {
 
 .break-below{
   padding-bottom: 15px;
+}
+
+.download {
+  background: #0F3CA5;
+  background-image: -webkit-linear-gradient(top, #3498db, #0F3CA5);
+  background-image: -moz-linear-gradient(top, #3498db, #0F3CA5);
+  background-image: -ms-linear-gradient(top, #3498db, #0F3CA5);
+  background-image: -o-linear-gradient(top, #3498db, #0F3CA5);
+  background-image: linear-gradient(to bottom, #3498db, #0F3CA5);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: none;
+  margin-top: 30px;
+}
+
+.download:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  border: none;
 }
