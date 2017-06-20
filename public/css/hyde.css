@@ -45,7 +45,6 @@ html {
   }
 }
 
-
 /*
  * Sidebar
  *
@@ -126,6 +125,10 @@ a.sidebar-nav-item:focus {
     bottom: 1rem;
     left:   1rem;
   }
+  .sidebar-sticky-holder {
+    position: fixed;
+    bottom: 1rem;
+  }
 }
 
 
@@ -135,10 +138,18 @@ a.sidebar-nav-item:focus {
  * with a 25%-wide `.sidebar`.
  */
 
-.content {
-  padding-top:    4rem;
-  padding-bottom: 2rem;
-}
+ /*center the main content on about page */
+ html, body, .container, .box1{
+    height: 100%;
+ }
+
+ .box1 {
+    display: flex;
+    align-items: center;
+ }
+ .box2 {
+    margin: 0;
+ }
 
 @media (min-width: 48em) {
   .content {
@@ -194,6 +205,7 @@ a.sidebar-nav-item:focus {
   .layout-reverse .content {
     margin-left: 2rem;
     margin-right: 18rem;
+    height: 100%;
   }
 }
 
@@ -201,6 +213,7 @@ a.sidebar-nav-item:focus {
   .layout-reverse .content {
     margin-left: 4rem;
     margin-right: 18rem;
+    height: 100%;
   }
 }
 
@@ -208,8 +221,6 @@ a.sidebar-nav-item:focus {
 
 /*
  * Themes
- *
-  I live in New York City by way of Chicago and Cleveland.
  * As of v1.1, Hyde includes optional themes to color the sidebar and links
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
