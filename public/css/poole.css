@@ -391,7 +391,8 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* Blog post or page title */
@@ -402,7 +403,7 @@ tbody tr:nth-child(odd) th {
 }
 .page-title,
 .post-title {
-  margin-top: 0;
+  margin-top: 1.5rem;
 }
 
 /* Meta data line below post title */
