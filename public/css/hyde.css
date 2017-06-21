@@ -432,7 +432,6 @@ a.sidebar-nav-item:focus {
 
 .web-dev{
   display: inline-block;
-  text-decoration: underline;
 }
 
 .modeling{
@@ -446,4 +445,5 @@ a.sidebar-nav-item:focus {
 
 #dev-heading{
   margin-right: 50px;
+  text-decoration: underline;
 }
