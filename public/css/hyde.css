@@ -327,6 +327,7 @@ a.sidebar-nav-item:focus {
 
 /* Diagonal stacked paper effect */
 .paper {
+  width: 75%;
   padding: 30px 50px;
   border: 1px solid gray;
   border-radius: 2px;
