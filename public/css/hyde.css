@@ -431,6 +431,7 @@ a.sidebar-nav-item:focus {
 
 .web-dev{
   display: inline-block;
+  text-decoration: underline;
 }
 
 .modeling{
