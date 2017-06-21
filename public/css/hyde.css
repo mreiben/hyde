@@ -34,12 +34,12 @@
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
-@media (min-width: 48em) {
+/*@media (min-width: 48em) {
   html {
     font-size: 16px;
   }
-}
-@media (min-width: 58em) {
+}*/
+@media (min-width: 40em) {
   html {
     font-size: 20px;
   }
@@ -151,18 +151,34 @@ a.sidebar-nav-item:focus {
     align-items: center;
  }
 
-@media (min-width: 48em) {
+@media (min-width: 50em) {
   .content {
     max-width: 42rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+  .page{
+    width: 36em;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 70em) {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
+  }
+  .page{
+    width: 50em;
+  }
+}
+
+@media (min-width: 92em) {
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+  .page{
+    width: 68em;
   }
 }
 
@@ -211,13 +227,11 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .layout-reverse .content {
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-right: 18rem;
     height: 100%;
   }
 }
-
-
 
 /*
  * Themes
@@ -413,4 +427,21 @@ a.sidebar-nav-item:focus {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
   border: none;
+}
+
+.web-dev{
+  display: inline-block;
+}
+
+.modeling{
+  display: none;
+}
+
+#dev-heading, #modeling-heading{
+  display: inline-block;
+  cursor: default;
+}
+
+#dev-heading{
+  margin-right: 50px;
 }

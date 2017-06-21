@@ -52,11 +52,11 @@ html {
   font-size: 16px;
   line-height: 1.5;
 }
-@media (min-width: 38em) {
+/*@media (min-width: 38em) {
   html {
     font-size: 20px;
   }
-}
+}*/
 
 body {
   color: #515151;
@@ -100,7 +100,7 @@ h2 {
   font-size: 1.5rem;
 }
 h3 {
-  margin-top: 1.5rem;
+  margin-top: .5rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -238,7 +238,7 @@ img {
 }
 
 /*custom portfolio image styles */
-.simon{
+.img-border{
   border: 1px solid grey;
 }
 
@@ -254,7 +254,7 @@ img {
   width: 300px;
   height: 200px;
   display: inline-block;
-  margin: -5px 15px;
+  margin: -5px 30px;
 }
 
 .folio-img{
@@ -347,7 +347,6 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -405,6 +404,7 @@ tbody tr:nth-child(odd) th {
 .post-title {
   margin-top: 1.5rem;
 }
+
 
 /* Meta data line below post title */
 .post-date {
