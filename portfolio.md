@@ -98,7 +98,7 @@ title: Portfolio
     </a>
   </div>
   <div class="img-container modeling">
-    <p class="project-name">Dual Position Monitor Stand</p>
+    <p class="project-name">Dual-Position Monitor Stand</p>
     <a href="/public/resources/monitor-stand.png">
       <img class="folio-img img-border" src="/public/resources/monitor-stand.png" alt="Monitor Stand">
       <div class="middle">
