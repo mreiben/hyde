@@ -10,6 +10,6 @@ $(document).ready(function(){
     $('#modeling-heading').css('text-decoration','underline');
     $('#dev-heading').css('text-decoration', 'none');
     $('.web-dev').fadeOut();
-    $('.modeling').fadeIn();
+    $('.modeling').fadeIn().css('display', 'inline-block');
   });
 });

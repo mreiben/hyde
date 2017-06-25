@@ -16,7 +16,7 @@ title: Résumé
   <ul class="res-ul">
     <li>Developed and implemented Computer Science Curriculum</li>
     <li>Designed courses including programmatic thinking, robotics, web design, iOS, and AP Java</li>
-    <li>Lead staff professional growth team with a focus on classroom technology</li>
+    <li>Led staff professional growth team with a focus on classroom technology</li>
     <li>Redesigned English department workflow to include automated distribution, collection, and feedback for major assessments</li>
   </ul>
 
@@ -25,11 +25,14 @@ title: Résumé
   <ul class="res-ul">
     <li>Managed distribution and testing accommodations for national and state exams</li>
     <li>Processed results for data-driven planning by departments and individual teachers</li>
-    <li>Piloted a blended learning classroom model with 1-to-1 student laptop use</li>
   </ul>
 
   <p class="res-bold">Teach for America, New York City <span class="res-italic">- Corps Member</span></p>
-  <p class="res-dates break-below">July 2008 - July 2010</p>
+  <p class="res-dates">July 2008 - July 2010</p>
+  <ul class="res-ul">
+    <li>Taught at a high-needs school while simultaneously pursuing graduate studies</li>
+    <li>Piloted a blended learning classroom model with 1-to-1 student laptop use</li>
+  </ul>
 
   <h3 class="res-section">EDUCATION</h3>
 
