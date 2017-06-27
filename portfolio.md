@@ -9,7 +9,7 @@ title: Portfolio
 <div class="img-container web-dev">
   <p class="project-name">Markdown Editor</p>
   <a href="https://jeiben-markbin.herokuapp.com/">
-    <img class="folio-img" src="/public/resources/markbin.png" alt="Markdown Previewer">
+    <img class="folio-img img-border" src="/public/resources/markbin.png" alt="Markdown Previewer">
     <div class="middle">
       <div class="text">React, Meteor, MongoDB</div>
     </div>
