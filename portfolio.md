@@ -6,6 +6,15 @@ title: Portfolio
 <h3 class="p-heading" id="dev-heading">Web Development</h3>
 <h3 class="p-heading" id="modeling-heading">3D Modeling</h3>
 <div class="portfolio-container">
+<div class="img-container web-dev">
+  <p class="project-name">Markdown Editor</p>
+  <a href="https://jeiben-markbin.herokuapp.com/">
+    <img class="folio-img" src="/public/resources/markbin.png" alt="Markdown Previewer">
+    <div class="middle">
+      <div class="text">React, Meteor, MongoDB</div>
+    </div>
+  </a>
+</div>
   <div class="img-container web-dev">
     <p class="project-name">Conway's Game of Life</p>
     <a href="https://jeiben-game-of-life.herokuapp.com/">
