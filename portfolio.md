@@ -20,7 +20,7 @@ title: Portfolio
     <a href="https://jeiben-game-of-life.herokuapp.com/">
       <img class="folio-img" src="/public/resources/life.png" alt="Game of Life">
       <div class="middle">
-        <div class="text">React, ES2016, Heroku</div>
+        <div class="text">React, ES6, Heroku</div>
       </div>
     </a>
   </div>
@@ -29,7 +29,7 @@ title: Portfolio
     <a href="https://jeiben-recipe-box.herokuapp.com/">
       <img class="folio-img img-border" src="/public/resources/recipe.png" alt="Recipe Box">
       <div class="middle">
-        <div class="text">React, ES2016, MongoDB</div>
+        <div class="text">React, ES6, MongoDB</div>
       </div>
     </a>
   </div>
