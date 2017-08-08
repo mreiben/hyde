@@ -11,16 +11,7 @@ title: Portfolio
     <a href="https://apcs-review.herokuapp.com/">
       <img class="folio-img img-border" src="/public/resources/apcs-review.png" alt="APCS Review">
       <div class="middle">
-        <div class="text">React, GraphQL, MongoDB</div>
-      </div>
-    </a>
-  </div>
-  <div class="img-container web-dev">
-    <p class="project-name">APCS Review</p>
-    <a href="https://apcs-review.herokuapp.com/">
-      <img class="folio-img img-border" src="/public/resources/markbin.png" alt="Markdown Previewer">
-      <div class="middle">
-        <div class="text">React, GraphQL, MongoDB</div>
+        <div class="text">React, GraphQL, Apollo</div>
       </div>
     </a>
   </div>
