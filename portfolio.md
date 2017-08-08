@@ -6,24 +6,24 @@ title: Portfolio
 <h3 class="p-heading" id="dev-heading">Web Development</h3>
 <h3 class="p-heading" id="modeling-heading">3D Modeling</h3>
 <div class="portfolio-container">
-<div class="img-container web-dev">
-  <p class="project-name">AP Computer Science Review</p>
-  <a href="https://http://apcs-review.herokuapp.com/">
-    <img class="folio-img img-border" src="/public/resources/apcs-review.png" alt="Markdown Previewer">
-    <div class="middle">
-      <div class="text">React, GraphQL, MongoDB</div>
-    </div>
-  </a>
-</div>
-<div class="img-container web-dev">
-  <p class="project-name">Markdown Editor</p>
-  <a href="https://jeiben-markbin.herokuapp.com/">
-    <img class="folio-img img-border" src="/public/resources/markbin.png" alt="Markdown Previewer">
-    <div class="middle">
-      <div class="text">React, Meteor, MongoDB</div>
-    </div>
-  </a>
-</div>
+  <div class="img-container web-dev">
+    <p class="project-name">AP Computer Science Review</p>
+    <a href="https://apcs-review.herokuapp.com/">
+      <img class="folio-img img-border" src="/public/resources/apcs-review.png" alt="AP Computer Science Review">
+      <div class="middle">
+        <div class="text">React, GraphQL, MongoDB</div>
+      </div>
+    </a>
+  </div>
+  <div class="img-container web-dev">
+    <p class="project-name">Markdown Editor</p>
+    <a href="https://jeiben-markbin.herokuapp.com/">
+      <img class="folio-img img-border" src="/public/resources/markbin.png" alt="Markdown Previewer">
+      <div class="middle">
+        <div class="text">React, Meteor, MongoDB</div>
+      </div>
+    </a>
+  </div>
   <div class="img-container web-dev">
     <p class="project-name">Conway's Game of Life</p>
     <a href="https://jeiben-game-of-life.herokuapp.com/">
