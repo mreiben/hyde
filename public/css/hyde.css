@@ -447,3 +447,7 @@ a.sidebar-nav-item:focus {
   margin-right: 50px;
   text-decoration: underline;
 }
+
+.top-project{
+  vertical-align: top;
+}
