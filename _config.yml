@@ -10,7 +10,7 @@ title:            Jason Eiben
 tagline:          'Full stack developer, teacher, tinkerer'
 description:      'Full stack developer, teacher, tinkerer'
 url:              https://mreiben.github.io
-baseurl:          https://mreiben.github.io
+baseurl:          https://mreiben.github.io/
 
 author:
   name:           'Jason Eiben'
